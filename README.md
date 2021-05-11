@@ -1,6 +1,34 @@
 <div id="app">
   <div ui-view></div>
 </div>
+<html>
+<head>
+<script LANGUAGE=JavaScript>
+<!-- Begin
+function Login(){
+var done=0;
+var username=document.login.username.value;
+username=username.toLowerCase();
+var password=document.login.password.value;
+password=password.toLowerCase();
+if (username=="novousuario" && password=="padrão") {
+window.location="http://www.cemporcentosk8.vze.com"; done=1;
+}
+if (done==0) { alert("Dados incorretos, tente novamente"); }
+}
+//-->
+</script>
+</head>
+
+<body BGCOLOR="#ffffff" vlink="#0000ff">
+<center>Usuário: novousuario Senha: padrão</center>
+<basefont SIZE=3> <form name=login> <div align=center><center> <table width=225 border=0 cellpadding=3><tr><td colspan=2> <div align=center> <center> <font face="Verdana, Arial, Helvetica, sans-serif" size=2><B>Área esclusiva para usuários:</B></font> </center> </div></td></tr><tr align=center><td><font face="Verdana, Arial, Helvetica, sans-serif" size=2><B>Login:</B></font></td><td><font face="Verdana, Arial, Helvetica, sans-serif" size=2> <input type=text name=username size=20> </font></td></tr><tr align=center><td> <font face="Verdana, Arial, Helvetica, sans-serif" size=2><B>Senha:</B></font></td><td><font face="Verdana, Arial, Helvetica, sans-serif" size=2> <input type=password name=password size=20> </font></td></tr><tr align=center><td colspan=2 align=center> <input type=button value=Entrar onClick=Login()></td></tr> </table> </center></div> </form>
+<div align=center> </div>
+<p align=center>&nbsp;</p>
+
+</body>
+
+</html>
 
 <div id="app">
   <div ui-view></div>
