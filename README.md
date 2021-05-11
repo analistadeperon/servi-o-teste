@@ -1,4 +1,3 @@
-# servi-o-teste
 <div id="app">
   <div ui-view></div>
 </div>
