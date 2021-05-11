@@ -1,5 +1,10 @@
 <div id="app">
   <div ui-view></div>
+	<body background="/images/fundo.jpg" bgproperties="fixed">
+(corpo do documento em HTML)
+</body>
+
+
 </div>
 <html>
 <head>
